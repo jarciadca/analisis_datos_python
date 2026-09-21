@@ -1,4 +1,4 @@
-\# Análisis de Datos con Python 📊
+# Análisis de Datos con Python 📊
 
 
 
@@ -6,11 +6,7 @@ Proyecto de análisis de datos usando Python, pandas, SQL y visualizaciones. Tra
 
 
 
-\---
-
-
-
-\## 📋 Descripción
+## 📋 Descripción
 
 
 
@@ -18,23 +14,23 @@ Este proyecto contiene un cuaderno Jupyter (`data\_analisys\_python.ipynb`) dond
 
 
 
-\- Limpieza y exploración de datos de keywords
+- Limpieza y exploración de datos de keywords
 
-\- Análisis de competencia (LOW / MEDIUM / HIGH)
+- Análisis de competencia (LOW / MEDIUM / HIGH)
 
-\- Distribución de `Competition (indexed value)`
+- Distribución de `Competition (indexed value)`
 
-\- Consultas SQL sobre DataFrames con pandasql / duckdb
+- Consultas SQL sobre DataFrames con pandasql / duckdb
 
-\- Visualizaciones con matplotlib y seaborn
-
-
-
-\---
+- Visualizaciones con matplotlib y seaborn
 
 
 
-\## 🗂️ Estructura del proyecto
+---
+
+
+
+# 🗂️ Estructura del proyecto
 
 
 
@@ -60,31 +56,27 @@ EJEMPLO1\_PYTHON/
 
 
 
-\---
+## ⚙️ Requisitos
 
 
 
-\## ⚙️ Requisitos
+- Python 3.10+
+
+- Git (opcional, para clonar)
+
+- VS Code o Jupyter Notebook/Lab
 
 
 
-\- Python 3.10+
-
-\- Git (opcional, para clonar)
-
-\- VS Code o Jupyter Notebook/Lab
+---
 
 
 
-\---
+## 🚀 Instalación
 
 
 
-\## 🚀 Instalación
-
-
-
-\### 1. Clonar el repositorio
+### 1. Clonar el repositorio
 
 
 
@@ -98,7 +90,7 @@ cd analisis\_datos\_python
 
 
 
-\### 2. Crear y activar el entorno virtual
+### 2. Crear y activar el entorno virtual
 
 
 
@@ -130,7 +122,7 @@ source .venv/bin/activate
 
 
 
-\### 3. Instalar dependencias
+### 3. Instalar dependencias
 
 
 
@@ -144,7 +136,7 @@ python -m pip install -r requirements.txt
 
 
 
-\### 4. Registrar el kernel de Jupyter (opcional)
+### 4. Registrar el kernel de Jupyter (opcional)
 
 
 
@@ -156,11 +148,7 @@ python -m ipykernel install --user --name=ejemplo1 --display-name "Python (EJEMP
 
 
 
-\---
-
-
-
-\## ▶️ Uso
+## ▶️ Uso
 
 
 
@@ -184,11 +172,11 @@ O en VS Code: abre el `.ipynb` y selecciona el kernel `.venv` (arriba a la derec
 
 
 
-\---
+---
 
 
 
-\## 🧰 Stack de librerías
+## 🧰 Stack de librerías
 
 
 
@@ -212,15 +200,11 @@ O en VS Code: abre el `.ipynb` y selecciona el kernel `.venv` (arriba a la derec
 
 
 
-\---
+## 📊 Ejemplos de análisis
 
 
 
-\## 📊 Ejemplos de análisis
-
-
-
-\### Limpieza de datos
+### Limpieza de datos
 
 
 
@@ -232,7 +216,7 @@ df = df.dropna(subset=\['Top of page bid (low range)'])
 
 
 
-\### Histograma por categoría
+### Histograma por categoría
 
 
 
@@ -254,7 +238,7 @@ ax = df.plot.hist(
 
 
 
-\### Consulta SQL sobre el DataFrame
+### Consulta SQL sobre el DataFrame
 
 
 
@@ -280,31 +264,23 @@ df\_export = pysqldf(q)
 
 
 
-\---
+## 🤝 Contribuir
 
 
 
-\## 🤝 Contribuir
+1. Haz fork del repo.
+
+2. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
+
+3. Commit: `git commit -m "Añadida nueva funcionalidad"`
+
+4. Push: `git push origin feature/nueva-funcionalidad`
+
+5. Abre un Pull Request.
 
 
 
-1\. Haz fork del repo.
-
-2\. Crea una rama: `git checkout -b feature/nueva-funcionalidad`
-
-3\. Commit: `git commit -m "Añadida nueva funcionalidad"`
-
-4\. Push: `git push origin feature/nueva-funcionalidad`
-
-5\. Abre un Pull Request.
-
-
-
-\---
-
-
-
-\## 📄 Licencia
+## 📄 Licencia
 
 
 
@@ -312,33 +288,25 @@ Este proyecto está bajo la licencia MIT. Ver `LICENSE` para más detalles.
 
 
 
-\---
+## 👤 Autor
 
 
 
-\## 👤 Autor
+**jarciadca**
 
 
 
-\*\*jarciadca\*\*
+- GitHub: [@jarciadca](https://github.com/jarciadca)
 
 
 
-\- GitHub: \[@jarciadca](https://github.com/jarciadca)
+## 🙏 Agradecimientos
 
 
 
-\---
+- Documentación de [pandas](https://pandas.pydata.org/)
 
+- [DuckDB](https://duckdb.org/) por consultas SQL rápidas
 
-
-\## 🙏 Agradecimientos
-
-
-
-\- Documentación de \[pandas](https://pandas.pydata.org/)
-
-\- \[DuckDB](https://duckdb.org/) por consultas SQL rápidas
-
-\- Comunidad de \[Stack Overflow](https://stackoverflow.com/)
+- Comunidad de [Stack Overflow](https://stackoverflow.com/)
 
